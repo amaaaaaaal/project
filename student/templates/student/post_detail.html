@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Liste des posts</h1>
+    <h2>{{ post.title }}</h2>
+    <p>{{ post.description }}</p>
+    <p>Type: {{ post.get_type_display }}</p>
+{% endblock %}

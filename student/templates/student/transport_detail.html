@@ -1,0 +1,12 @@
+
+
+
+
+{% extends 'student/base.html' %}
+
+{% block content %}
+<h1>Liste des transports</h1>
+    <h2>{{ transport.title }}</h2>
+    <p>{{ transport.description }}</p>
+    <p>Destination: {{ transport.destination }}</p>
+{% endblock %}

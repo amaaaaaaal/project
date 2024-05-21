@@ -1,0 +1,14 @@
+
+{% extends 'student/base.html' %}
+
+{% block content %}
+
+<h1>Liste des stages</h1>
+    <h2>{{ stage.societe }}</h2>
+    <p>{{ stage.sujet }}</p>
+    <p>{{ stage.duree }}</p>
+    <p>Type: {{ stage.typeStg }}</p>
+    <p>{{ stage.contactInfo }}</p>
+    <p>{{ stage.specialite }}</p>
+{% endblock %}
+

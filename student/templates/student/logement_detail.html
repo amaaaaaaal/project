@@ -1,0 +1,8 @@
+{% extends 'student/base.html' %}
+
+{% block content %}
+<h1>Liste des logements</h1>
+    <h2>{{ logement.title }}</h2>
+    <p>{{ logement.description }}</p>
+    <p>Address: {{ logement.address }}</p>
+{% endblock %}

@@ -1,0 +1,12 @@
+
+
+
+{% extends 'student/base.html' %}
+
+{% block content %}
+<h1>Liste des événements</h1>
+<ul>
+    <h2>{{ event.intitule }}</h2>
+    <p>{{ event.description }}</p>
+    <p>Price: {{ event.price }}</p>
+{% endblock %}
